@@ -1,7 +1,7 @@
 const settings = {
-    "minecraft_version": "1.21.1", // supports up to 1.21.1
-    "host": "127.0.0.1", // or "localhost", "your.ip.address.here"
-    "port": 55916,
+    "minecraft_version": "1.21.5", // supports up to 1.21.1
+    "host": "localhost", // or "localhost", "Izzle.aternos.me your.ip.address.here, default: 127.0.0.1 "
+    "port": 55916, // 55916 is default, izzle server is 25565
     "auth": "offline", // or "microsoft"
 
     // the mindserver manages all agents and hosts the UI
@@ -38,7 +38,7 @@ const settings = {
     "code_timeout_mins": -1, // minutes code is allowed to run. -1 for no timeout
     "relevant_docs_count": 5, // number of relevant code function docs to select for prompting. -1 for all
 
-    "max_messages": 15, // max number of messages to keep in context
+    "max_messages": 50, // max number of messages to keep in context
     "num_examples": 2, // number of examples to give to the model
     "max_commands": -1, // max number of commands that can be used in consecutive responses. -1 for no limit
     "verbose_commands": true, // show full command syntax
